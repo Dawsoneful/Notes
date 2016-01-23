@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My first file</title>
+  <link rel="stylesheet" href="http://app.classeur.io/base-min.css" />
+  <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+
+<body>
+  <div class="export-container"><h1 id="testing">Testing</h1>
+<pre class=" language-c"><code class="prism ++ language-c"><span class="token property">#include <span class="token string">&lt;iostream&gt;</span></span>
+using namespace std<span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> <span class="token function">main<span class="token punctuation">(</span></span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+cout <span class="token operator">&lt;&lt;</span> <span class="token string">"Hello World"</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span> 
+</code></pre>
+<p>Inline latex works like <script type="math/tex" id="MathJax-Element-1">x^2 - 5 = \Phi</script></p>
+<p>LaTeX block</p>
+<p><script type="math/tex; mode=display" id="MathJax-Element-2">
+\oint_0^\infty \pi^2 dx 
+</script></p>
+<ul>
+<li>Bullet
+<ul>
+<li>Points
+<ul>
+<li>Down
+<ul>
+<li>Only three layers</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Images, <em>italics</em>, <strong>Bold</strong>, <s>strikethrough</s>, H<sub>2</sub>O, x<sup>2</sup>,  footnotes[^1]</p>
+<p><img src="http://i.imgur.com/q5fbzqt.png" alt="1"></p>
+<p>[^1] Footnote success</p></div>
+</body>
+
+</html>
